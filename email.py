@@ -5,11 +5,11 @@ import nltk
 from nltk.corpus import stopwords
 
 # Set the NLTK data path
-#nltk.data.path.append('C:/Users/sujee/AppData/Roaming/nltk_data')
+#nltk.data.path.append('C:/Users/sujee/Downloads/nltk_data')
 nltk.data.path.append('nltk_data')
 
 # Download NLTK resources
-nltk.download('stopwords')
+#nltk.download('stopwords')
 
 # Load the trained model
 model = joblib.load('email_detection_model.joblib')
